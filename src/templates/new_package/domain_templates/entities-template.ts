@@ -1,10 +1,10 @@
 import * as changeCase from "change-case";
 
-export function getUseCaseTemplate(name: string): string {
-    return getDefaultUseCaseTemplate(name);
+export function getEntityTemplate(name: string): string {
+    return getDefaultEntityTemplate(name);
 }
 
-function getDefaultUseCaseTemplate(name: string): string {
+function getDefaultEntityTemplate(name: string): string {
   
   return `class ${name} {
   ${name}();
